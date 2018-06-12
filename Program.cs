@@ -63,7 +63,7 @@ namespace net.core.webapp
                 var resultString = "";
                 foreach (var station in stations)
                 {
-                    resultString += station.Name + "\n";
+                    resultString += "<img src=\"" + station.Logo+ "\" margin=0 width=300 height=300>" + station.Name + "<br>";
                 }
                 return resultString;
             }

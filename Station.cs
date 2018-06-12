@@ -8,5 +8,8 @@ namespace net.core.webapp
     {
         [DataMember(Name="name")]
         public string Name;
+
+        [DataMember(Name="logo")]
+        public string Logo;
     }
 }

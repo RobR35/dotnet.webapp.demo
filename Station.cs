@@ -11,5 +11,8 @@ namespace net.core.webapp
 
         [DataMember(Name="logo")]
         public string Logo;
+
+        [DataMember(Name="streams")]
+        public Streams StationStreams;
     }
 }
